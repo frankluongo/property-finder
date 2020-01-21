@@ -1,24 +1,23 @@
-# README
+# PropertyFinder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Application is based loosely on a [YouTube Series by David Battersby](https://youtu.be/qvGGz-2WHpU). I didn't love the tone of the series so after making it through the first 20 minutes or so, I just looked at the website it's based on and started working from there.
 
-Things you may want to cover:
+The Web App is based on [Domain](https://www.domain.com.au/)
 
-* Ruby version
+## Requirements
 
-* System dependencies
+Below I've defined what this mock application will need to do in order to be considered complete.
 
-* Configuration
+### Users Groups
 
-* Database creation
+There will be two types of users, buyers and owners.
 
-* Database initialization
+#### Buyers
 
-* How to run the test suite
+- Can view **Properties**
+- Can indicate interest in a **property**
+- Can contact (notify) an owner
 
-* Services (job queues, cache servers, search engines, etc.)
+### Owners
 
-* Deployment instructions
-
-* ...
+- Can create, read, update and delete their own **properties**
